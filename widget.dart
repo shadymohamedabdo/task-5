@@ -67,71 +67,108 @@ class widget extends StatelessWidget {
               ),
             ),
             SizedBox(height: 10,),
-            Card(
-              color: Color(0xff3d3d3d),
-              child: ListTile(
-                iconColor: Colors.white,
-                textColor: Colors.white,
-                leading:Icon(Icons.privacy_tip,color: Colors.white,),
-                title:Text('privacy'),
-                trailing:Icon(Icons.navigate_next,color: Colors.white,),
+            Container(
+              child: Row(children: [
+                SizedBox(width: 10,),
+                Icon(Icons.privacy_tip,color: Colors.white,),
+                SizedBox(width: 15,),
+                Text('privacy',style: TextStyle(color: Colors.white,),),
+                SizedBox(width: 180,),
+                Icon(Icons.navigate_next,color: Colors.white,),
+              ],),
+              height: 50,
+              width: 300,
+              decoration: BoxDecoration(
+                color: Color(0xff3d3d3d),
+                borderRadius: BorderRadius.circular(20),
               ),
             ),
-            SizedBox(height: 10,),
-            Card(
-              color: Color(0xff3d3d3d),
-              child: ListTile(
-                iconColor: Colors.white,
-                textColor: Colors.white,
-                leading:Icon(Icons.history_rounded,color: Colors.white,),
-                title:Text('purphase History'),
-                trailing:Icon(Icons.navigate_next,color: Colors.white,),
+            SizedBox(height: 15,),
+            Container(
+              child: Row(children: [
+                SizedBox(width: 10,),
+                Icon(Icons.history_rounded,color: Colors.white,),
+                SizedBox(width: 15,),
+                Text('Purchase History',style: TextStyle(color: Colors.white,),),
+                SizedBox(width: 115,),
+                Icon(Icons.navigate_next,color: Colors.white,),
+              ],),
+              height: 50,
+              width: 300,
+              decoration: BoxDecoration(
+                color: Color(0xff3d3d3d),
+                borderRadius: BorderRadius.circular(20),
               ),
             ),
-            SizedBox(height: 10,),
-            Card(
-              color: Color(0xff3d3d3d),
-              child: ListTile(
-                iconColor: Colors.white,
-                textColor: Colors.white,
-                leading:Icon(Icons.help_outline,color: Colors.white,),
-                title:Text('Help & support'),
-                trailing:Icon(Icons.navigate_next,color: Colors.white,),
+            SizedBox(height: 15,),
+            Container(
+              child: Row(children: [
+                SizedBox(width: 10,),
+                Icon(Icons.help_outline,color: Colors.white,),
+                SizedBox(width: 15,),
+                Text('Help & Support',style: TextStyle(color: Colors.white,),),
+                SizedBox(width: 130,),
+                Icon(Icons.navigate_next,color: Colors.white,),
+              ],),
+              height: 50,
+              width: 300,
+              decoration: BoxDecoration(
+                color: Color(0xff3d3d3d),
+                borderRadius: BorderRadius.circular(20),
               ),
             ),
-            SizedBox(height: 10,),
-            Card(
-              color: Color(0xff3d3d3d),
-              child: ListTile(
-                iconColor: Colors.white,
-                textColor: Colors.white,
-                leading:Icon(Icons.settings,color: Colors.white,),
-                title:Text('setting'),
-                trailing:Icon(Icons.navigate_next,color: Colors.white,),
+            SizedBox(height: 15,),
+            Container(
+              child: Row(children: [
+                SizedBox(width: 10,),
+                Icon(Icons.settings,color: Colors.white,),
+                SizedBox(width: 15,),
+                Text('setting',style: TextStyle(color: Colors.white,),),
+                SizedBox(width: 180,),
+                Icon(Icons.navigate_next,color: Colors.white,),
+              ],),
+              height: 50,
+              width: 300,
+              decoration: BoxDecoration(
+                color: Color(0xff3d3d3d),
+                borderRadius: BorderRadius.circular(20),
               ),
             ),
-            SizedBox(height: 10,),
-            Card(
-              color: Color(0xff3d3d3d),
-              child: ListTile(
-                iconColor: Colors.white,
-                textColor: Colors.white,
-                leading:Icon(Icons.person_off,color: Colors.white,),
-                title:Text('invite a friend'),
-                trailing:Icon(Icons.navigate_next,color: Colors.white,),
+            SizedBox(height: 15,),
+            Container(
+              child: Row(children: [
+                SizedBox(width: 10,),
+                Icon(Icons.person_off,color: Colors.white,),
+                SizedBox(width: 15,),
+                Text('invite a friend ',style: TextStyle(color: Colors.white,),),
+                SizedBox(width: 130,),
+                Icon(Icons.navigate_next,color: Colors.white,),
+              ],),
+              height: 50,
+              width: 300,
+              decoration: BoxDecoration(
+                color: Color(0xff3d3d3d),
+                borderRadius: BorderRadius.circular(20),
               ),
             ),
-            SizedBox(height: 10,),
-            Card(
-              color: Color(0xff3d3d3d),
-              child: ListTile(
-                iconColor: Colors.white,
-                textColor: Colors.white,
-                leading:Icon(Icons.logout,color: Colors.white,),
-                title:Text('log out '),
+            SizedBox(height: 15,),
+            Container(
+              child: Row(children: [
+                SizedBox(width: 10,),
+                Icon(Icons.logout,color: Colors.white,),
+                SizedBox(width: 15,),
+                Text('Log out',style: TextStyle(color: Colors.white,),),
 
+              ],),
+              height: 50,
+              width: 300,
+              decoration: BoxDecoration(
+                color: Color(0xff3d3d3d),
+                borderRadius: BorderRadius.circular(20),
               ),
             ),
+
+
           ],
         ),
       ),
